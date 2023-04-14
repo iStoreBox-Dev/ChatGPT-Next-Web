@@ -69,6 +69,7 @@ const jp = {
     Lang: {
       Name: "Language",
       Options: {
+        ar: "العربية",
         cn: "简体中文",
         en: "English",
         tw: "繁體中文",

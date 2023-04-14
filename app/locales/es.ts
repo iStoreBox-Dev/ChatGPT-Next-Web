@@ -70,6 +70,7 @@ const es: LocaleType = {
     Lang: {
       Name: "Language",
       Options: {
+        ar: "العربية",
         cn: "简体中文",
         en: "Inglés",
         tw: "繁體中文",

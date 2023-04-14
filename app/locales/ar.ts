@@ -70,7 +70,8 @@ const ar: LocaleType = {
     Lang: {
       Name: "Language", // ATTENTION: if you wanna add a new translation, please do not translate this value, leave it as `Language`
       Options: {
-        cn: "العربية",
+        ar: "العربية",
+        cn: "الصينية",
         en: "إنجليزي",
         tw: "الصينية التقليدية",
         es: "الاسبانية",
