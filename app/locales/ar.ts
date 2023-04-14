@@ -108,34 +108,33 @@ const ar: LocaleType = {
       Edit: "تعديل",
     },
     HistoryCount: {
-      Title: "Attached Messages Count",
-      SubTitle: "Number of sent messages attached per request",
+      Title: "عدد الرسائل المرفقة",
+      SubTitle: "عدد الرسائل المرسلة المرفقة لكل طلب",
     },
     CompressThreshold: {
-      Title: "History Compression Threshold",
-      SubTitle:
-        "Will compress if uncompressed messages length exceeds the value",
+      Title: "عتبة ضغط التاريخ",
+      SubTitle: "سيضغط إذا تجاوز طول الرسائل غير المضغوطة القيمة",
     },
     Token: {
       Title: "API Key",
-      SubTitle: "Use your key to ignore access code limit",
+      SubTitle: "استخدم مفتاحك لتجاهل حد رمز الوصول",
       Placeholder: "OpenAI API Key",
     },
     Usage: {
-      Title: "Account Balance",
+      Title: "رصيد الحساب",
       SubTitle(used: any, total: any) {
-        return `Used this month $${used}, subscription $${total}`;
+        return `مستخدمة هذا الشهر $${used}, الاشتراك $${total}`;
       },
-      IsChecking: "Checking...",
-      Check: "Check Again",
-      NoAccess: "Enter API Key to check balance",
+      IsChecking: "فحص...",
+      Check: "تحقق مرة اخرى",
+      NoAccess: "أدخل مفتاح API للتحقق من الرصيد",
     },
     AccessCode: {
-      Title: "Access Code",
-      SubTitle: "Access control enabled",
-      Placeholder: "Need Access Code",
+      Title: "رمز الدخول",
+      SubTitle: "تمكين التحكم في الدخول",
+      Placeholder: "بحاجة إلى رمز الدخول",
     },
-    Model: "Model",
+    Model: "نموذج",
     Temperature: {
       Title: "Temperature",
       SubTitle: "A larger value makes the more random output",
@@ -151,28 +150,29 @@ const ar: LocaleType = {
     },
   },
   Store: {
-    DefaultTopic: "New Conversation",
-    BotHello: "Hello! How can I assist you today?",
-    Error: "Something went wrong, please try again later.",
+    DefaultTopic: "محادثة جديدة",
+    BotHello:
+      "Hello! How can I assist you today? /n مرحبًا! كيف يمكنني مساعدتك اليوم؟",
+    Error: "هناك شئ خاطئ، يرجى المحاولة فى وقت لاحق.",
     Prompt: {
       History: (content: string) =>
-        "This is a summary of the chat history between the AI and the user as a recap: " +
+        "هذا ملخص لمحفوظات الدردشة بين الذكاء الاصطناعي والمستخدم كخلاصة: " +
         content,
       Topic:
-        "Please generate a four to five word title summarizing our conversation without any lead-in, punctuation, quotation marks, periods, symbols, or additional text. Remove enclosing quotation marks.",
+        "الرجاء إنشاء عنوان من أربع إلى خمس كلمات يلخص محادثتنا دون أي مقدمة أو علامات ترقيم أو علامات اقتباس أو نقاط أو رموز أو نص إضافي. إزالة التضمين علامات الاقتباس.",
       Summarize:
-        "Summarize our discussion briefly in 200 words or less to use as a prompt for future context.",
+        "لخص مناقشتنا بإيجاز في 200 كلمة أو أقل لاستخدامها كموجه للسياق المستقبلي.",
     },
-    ConfirmClearAll: "Confirm to clear all chat and setting data?",
+    ConfirmClearAll: "هل تريد التأكيد على مسح كافة بيانات الدردشة والإعداد؟",
   },
   Copy: {
-    Success: "Copied to clipboard",
-    Failed: "Copy failed, please grant permission to access clipboard",
+    Success: "نسخ إلى الحافظة",
+    Failed: "فشل النسخ ، يرجى منح الإذن للوصول إلى الحافظة",
   },
   Context: {
-    Toast: (x: any) => `With ${x} contextual prompts`,
-    Edit: "Contextual and Memory Prompts",
-    Add: "Add One",
+    Toast: (x: any) => `مع ${x} المطالبات السياقية`,
+    Edit: "موجهات السياق والذاكرة",
+    Add: "أضف",
   },
 };
 
