@@ -151,8 +151,7 @@ const ar: LocaleType = {
   },
   Store: {
     DefaultTopic: "محادثة جديدة",
-    BotHello:
-      "Hello! How can I assist you today? /n مرحبًا! كيف يمكنني مساعدتك اليوم؟",
+    BotHello: "Hello! How can I assist you today?",
     Error: "هناك شئ خاطئ، يرجى المحاولة فى وقت لاحق.",
     Prompt: {
       History: (content: string) =>
